@@ -48,6 +48,7 @@ export default (api) => {
       batch_id: T.string,
       batch_status: T.string,
       batch_message: T.string,
+      reference: T.string,
     }
 
     static jsonIdKeys = [
